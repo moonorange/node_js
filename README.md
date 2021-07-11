@@ -1,7 +1,8 @@
-# Intro to Node.js
+# Intro to Nodejs
 
+Based on the class in 11/28/2018
 
-## What is Node.js
+## What is Nodejs
 
 TLDR: Environment to run JS outside a browser
 
@@ -24,7 +25,7 @@ TLDR: Environment to run JS outside a browser
 Encapsulated code
 
 
-What Node.js does for you is something like below.
+What Nodejs does for you under the hood is something like below.
 That's the reason why you can use globals everywhere. Only things that changes each time are passed as arguments
 
 ```javascript
@@ -32,3 +33,6 @@ var module1 = (function(exports, require, module, __filename, __dirname){
   // your node js code in a file
 })
 ```
+
+Nodejs uses commonjs for its module system
+ESM(ecmascript modules) *new standard
